@@ -11,7 +11,7 @@ public class Operators {
 		System.out.println("enter other num");
 		int n1=sc.nextInt();
 		switch
-		case "n2=n+n1;"
+		case 1 n2=n+n1;
 				
 		
 		}

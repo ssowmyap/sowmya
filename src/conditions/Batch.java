@@ -13,10 +13,10 @@ public class Batch {
 	s2.setName("r");
     s2.setRoll(13);
     s2.setFees(200);
-    s2.setCollegename("vjit");
-    System.out.println(s1.getName());
-    System.out.println(s1.getRoll());
-	System.out.println(s1.getFees());
+    s2.setCollegename("cvsr");
+    //System.out.println(s1.getName());
+    //System.out.println(s1.getRoll());
+	//System.out.println(s1.getFees());
 	System.out.println(s1.getCollegename());
 	System.out.println(s2.getCollegename());
 	

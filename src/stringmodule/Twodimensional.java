@@ -28,7 +28,7 @@ public abstract class Twodimensional {
 			}
 			
 		}
-		System.out.println();
+		System.out.println("\n");
 			
 	}
 

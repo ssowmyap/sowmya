@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Greatestnum {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("enter a number");
 		int num1=sc.nextInt();
 		System.out.println("enter 2nd num");
