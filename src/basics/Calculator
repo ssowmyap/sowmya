@@ -1,0 +1,42 @@
+package basics;
+
+import java.util.Scanner;
+class Solution{
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+   int n1=sc.nextInt();
+public void add() {
+	
+	int sum=n+n1;
+	int sub=n-n1;
+	System.out.println("sum"+sum);
+	System.out.println("sub"+sub);
+}
+public void multiply() {
+	int mul=n*n1;
+	System.out.println("multiplication"+mul);
+}
+}
+class Operation extends Solution{
+	void div() {
+	int div=n/n1;
+	int moldules=n%n1;
+	System.out.println("division"+div);
+	System.out.println("modules"+moldules);
+}
+}
+
+ public class Calculator{
+	 
+	 public static void main(String[]args) {
+		 
+		 Operation o= new Operation();
+			 System.out.println();
+			 o.add();
+			 o.multiply();
+			 o.div();
+			 
+			
+	 }
+		
+ }
